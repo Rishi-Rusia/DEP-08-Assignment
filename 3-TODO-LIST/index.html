@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+<link rel="stylesheet" href="./index.css">
+<body class="bg-[#3D8D7A]">
+    <div class="flex w-full items-center flex-col">
+        <h1 class="font-bold text-6xl mt-10 text-[#FBFFE4]">TO DO LIST</h1>
+        <hr class="w-100 text-[#FBFFE4] mt-3 border-[#FBFFE4] border-3">
+
+        <form onsubmit="" class="flex mt-5 gap-5 items-center flex-col" id="todoForm" >
+            <input id="task" class="border-b-[#FBFFE4] border-b-2 active:outline-none p-1" placeholder="Start typing here" name="task">
+            <button class="border-2 py-2 px-4 border-[#FBFFE4] text-[#FBFFE4] rounded-lg cursor-pointer hover:text-red-500" type="submit">Add</button>
+        </form>
+        <ul class="mt-5">
+            
+        </ul>
+    </div>
+
+    
+    
+</body>
+<script src="./index.js"></script>
+</html>
